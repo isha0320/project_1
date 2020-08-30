@@ -1,0 +1,406 @@
+<html>
+<head>
+	<title> this is a web page home
+	</title>
+</head>
+<style>
+	*
+	{
+		margin: 0px 0px;
+		padding: 0px 0px;
+	}
+	.top_bar
+	{
+		display:inline-flex;
+		background-color:black;
+		color: white;
+		background-size:cover;
+		height:100px;
+	
+	}
+	#icon
+	{
+		margin: 10px 10px;
+		padding: 10px 10px;
+		background-position: bottom left;
+		border-radius:50% 50%;
+	}
+	#heading
+	{
+		color:white;
+		margin:5px 5px;
+		padding:5px 5px;
+		font-size:24px;
+		font-family:Arial-Bold;
+	}
+	.list
+	{
+		display:inline-flex;
+		margin:10px 5px 5px 500px;
+		padding:10px 5px 5px 500px;
+	}
+	.link
+	{
+		text-decoration:none;
+		color:white;
+		font-style:bold;
+		font-family:Arial-Bold;
+		display: inline-block;
+		font-size:16px;
+		text-align: right
+		margin:5px 5px;
+		padding:5px 10px;
+
+	}
+	.dropdown_btn
+	{
+		background-color: black;
+		font-style:bold;
+		font-family:Arial-Bold;
+		font-size:16px;
+		text-align:center;
+		width:100px;
+		padding:5px 10px;
+		color:white;
+		border:none;
+
+	}
+	.dropdown_contant
+	{
+		display:none;
+		width:160px;
+        opacity:0.7; 
+		background-color:black;
+	}
+	.dropdown_contant a
+	{
+		text-decoration:none;
+		color:white;
+		padding:5px 0px;
+		display:block;
+
+	}
+	.dropdown_contant a:hover
+	{
+		background-color:white;
+		color:black;
+		opacity:0.8;
+
+	}
+	.dropdown:hover .dropdown_contant
+	{
+		display:block;
+
+	}
+	.dropdown:hover .dropdown_btn
+	{
+     background-color:white;
+		color:black;
+		opacity:0.8;
+	}
+   .dropdown:active .dropdown_btn
+   {
+   	background:color:white;
+		color:black;
+		background-opacity:0.38;
+   }
+	.link:hover
+	{
+		background-color:white;
+		color:black;
+		opacity:0.8;
+
+	}
+	.link:active
+	{
+		background:color:white;
+		color:black;
+		background-opacity:0.8;
+	}
+	#center_image
+	{
+		background-image:url("https://www.dreams.co.uk/sleep-matters-club/wp-content/uploads/2017/01/woman-reading-bedtime-story.jpg");
+		background-size:cover;
+		background-attachment:scroll;
+		height:500px;
+		width:100%;
+		padding:0px 0px;
+		margin:0px 0px;
+
+	} 
+	.nhu
+	{
+		background:color:red;
+
+	}
+	#home
+	{
+		font-size:70px;
+		font-family:Arial-Bold;
+		text-align:center;
+		color:white;
+		padding:10px 10px;
+		margin: 10px 10px;
+	}
+	#title
+	{
+		font-size:30px;
+		color:white;
+		text-align:center;
+		font-family:Arial-bold;
+		font-style:bold;
+		padding:20px 20px;
+		margin:20px 20px;
+
+	}
+	#text
+	{
+		background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQgQY7p0mMZAUltf5PrKxeuIZGCR-r64f_zTg&usqp=CAU");
+		background-size:cover;
+		height: 700px
+		width:100%;
+	}
+	.text1
+	{
+		padding:10px 10px;
+	}
+	#source
+	{
+		background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQgQY7p0mMZAUltf5PrKxeuIZGCR-r64f_zTg&usqp=CAU");
+		background-size:cover;
+		height:800px;
+		width:100%;  
+
+	}
+	#demo
+	{
+		background-image:url("https://img.huffingtonpost.com/asset/56610b051b0000520129f320.jpeg?ops=scalefit_630_noupscale");
+		height:500px;
+		width:100%;
+		background-size:cover;
+		background-attachment:fixed;
+		background-repeat:no-repeat;
+		opacity:0.7;
+
+
+	}
+	.novels
+	{
+		font-size:35px;
+		font-family:Arial;
+		color: dark grey;
+		padding:100px 40px 50px;
+		margin:50px 50px;
+	}
+	.text2
+	{
+		color:dark grey;
+		font-size:35px;
+		font-family:Arial;
+
+	}
+	#images_source
+	{
+		display:inline-flex;
+		padding:10px 5px;
+		margin:10px 5px;
+	}
+	.move
+	{
+		padding:px 5px;
+		margin:5px 5px;
+		text-align:center;
+		text-decoration:none;
+		text-color:grey;
+	}
+
+	.move1:hover
+	{   
+		height:300px;
+		width:300px;
+		border-radius:0px 20px 0px 20px;
+		opacity:0.6;
+
+	}
+
+	.move1
+	{
+		padding:5px 5px;
+		margin:5px 8px;
+		border:10px solid grey;
+		border-radius:50% 50% ;
+	}
+	#per
+	{
+		border-left:10px solid  blue;
+		background:Aqua;
+		margin:10px 20px;
+	}
+
+.link2
+{
+	text-decoration:none;
+		color:white;
+		font-style:bold;
+		font-family:Arial-Bold;
+		display: inline-block;
+		font-size:16px;
+		text-align: right
+		margin:5px 5px;
+		padding:5px 10px;
+}
+
+.end
+{
+	background-color:black;
+	height:450px;
+	width:100%;
+	background-size:cover; 
+}
+.quick
+{
+	color:White;
+	text-style:bold;
+	font-family:Arial-Bold;
+	font-size:30px;
+	text-align:center;
+	padding:10px 10px;
+	margin:10px 10px;
+}
+.watch
+{
+	display:inline-flex;
+}
+.shortcut1
+{
+	color:white;
+	padding:15px 250px 15px 40px;
+	text-decoration:none;
+	font-size:18px;
+	display:block;
+}
+.shortcut1:hover
+{
+	font-size:24px;
+	color:Aqua;
+}
+.shortcut2
+{
+	color:white;
+	padding:15px 250px 15px 40px;
+	text-decoration: none;
+	font-size:18px;
+	display:block;
+	
+	
+}
+.shortcut2:hover
+{
+	font-size:24px;
+	color:Aqua;
+}
+.shortcut3
+{
+	color:white;
+	padding:15px 250px 15px 40px;
+	text-decoration: none;
+	font-size:18px;
+	display:block;
+	
+}
+.shortcut3:hover
+{
+	font-size:24px;
+	color:Aqua;
+}
+
+
+	</style>
+<body>
+	<div class="top_bar">
+		<img src="https://st3.depositphotos.com/1364916/12798/v/950/depositphotos_127988792-stock-illustration-logo-education-symbol.jpg" height="70px" width="70px" alt="icon" id="icon">
+		<p id="heading">More to learn</p>
+		<ul class="list" type="none">
+			<li><a  href="home.html" class="link">Home </a></li>
+			<li><a  href="Books.html" class="link">Books </a></li>
+			<li><div class="dropdown"><button class="dropdown_btn">Top Books </button>
+            <div class="dropdown_contant">
+            	<a href="test.html">Twalight</a>
+            	<a href="#">Harry Potter</a>
+            	<a href="#">Games Of Throwns</a>
+            	<a href="#" >Fault In Our Stars</a>
+            	<a href="#">Five Feets Apart</a>
+            </div>
+			</div></li>
+			<li><a class="link" href="FQA.html">FAQ </a></li>
+			<li><a class="link" href="login.html">login </a></li>
+		</ul>
+	</div>
+	<div id="center_image">
+		<p id="home">Home</p>
+		<br><br><br><br>
+		<p id="title">Learn More Grow More !</p>
+	</div>
+	<div id="text">
+		<h1 class="text1" class="rough"><b><center> Few Reasons Why Reading is ImportentFor Everyone</center></b></h1>
+		<br><br>
+		<p class="text1" id="per">One of the basic reasons why reading is important is that it helps you grow mentally, emotionally and psychologically. Every book gives you an opportunity to learn new things and explore new ideas. Reading books increases your knowledge and makes you smarter.<br>But the importance of reading is not limited to just these benefits. You will be amazed to know how beneficial reading books can be for you. And that is exactly what you will get to know here in this article.</p><br>
+		<p class="text1">
+			<h3 style="font-size:24px"><center>Here are <b>TheReasons</b> Why You Should Read More Books</center></h3><br>
+			<h3 class="text1"><align="right"><b>1. To Develop Your Verbal Abilities</b></align="right"></h3>
+			<p class="text1">Although it doesn’t always make you a better communicator, those who read tend to have a more varied range of words to express how they feel and to get their point across. This increases exponentially with the more volumes you consume, giving you a higher level of vocabulary to use in everyday life.</p>
+			<h3 class="text1"><align="right"><b>2. Imporoves Your Focus And Conccentration</b></align="right"></h3>
+			<p class="text1">Unlike blog posts and news articles, sitting down with a book takes long periods of focus and concentration, which at first is hard to do. Being fully engaged in a book involves closing off the outside world and immersing yourself into the text. Which over time will strengthen your attention span.</p>
+			<h3 class="text1"><align="right"><b>3. Readers Enjoy The Arts And Improve The World</b></align="right"></h3>
+			<p class="text1">A study done by the NEA explains that people who read for pleasure are more times more likely (than those that don’t) to visit museums and attend concerts. And almost three times as likely to perform volunteer and charity work.
+
+Readers are active participants in the world around them and that engagement is critical to individual and social well-being.</p>
+			<h3 class="text1"><align="right"><b>4. It Improves Your Imagination</b></align="right"></h3><p class="text1">You are only limited by what you can imagine, and the worlds described in books, as well as other peoples views and opinions, will help you expand your understanding of what is possible. By reading a written description of an event or a place, your mind is responsible for creating that image in your head, instead of having the image placed in front of you when you watch television.</p>
+		</p><br><br>
+	
+		<div id="demo"><h1 class="novels"><center>A Few Bookes One Should Read!</center></h1><br><br><h2 class="text2"><center> A Lot To Discover !</center></h2></div>
+		<br><br><br>
+		<div >
+		<h1><b><center> Bookes To Read</center></b></h1>
+		<br><br>
+		<ul type="none" id="images_source">
+	<li ><a href="#" ><img class="move1"src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1547665253i/36220348._UY985_SS985_.jpg" height="200px" width="250px" alt="story"></a><br><br><a href="#" class="link">This Time Will Be Diffrent</a></li>
+	<li > <a href="#" ><img  class="move1"src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRmK0p4Zwe_tB15drWuD8g8NvhAjbk8sLmUwQ&usqp=CAU"  height="200px" width="250px" alt="story"></a><br><br><a href="#" class="link">Crazy Rich Asians</a></li>
+    <li > <a href="#"><img  class="move1" src="https://kindlepreneur.com/wp-content/uploads/2018/04/the-great-gatsby-cover-image-7.png" height="200px" width="250px" alt="story"><br><br><a href="#" class="link">The Great Gatsby</a></li>
+    <li > <a href="#"><img class="move1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRUc7_Cac9jXhgvO7PWtu1Vp0gRR6Yfvl3_Aw&usqp=CAU" height="200px" width="250px" alt="story"></a> <br><br><a href="#" class="link">Harry Potter And The Sorcerers Stone</a></li>
+    <li><a href="#"><img class="move1" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1499277281l/5.jpg" height="250px" width="200px" alt="story"></a><br><br><a href="#" class="link">Harry Potter And The Prison Of Askaban</a></li>
+			
+		</ul>
+		</div>
+		<br><br>
+		<div class="end">
+			<h1 class="quick"><center><b>Quick Shortcuts</b></center></h1>
+			<br><br>
+			<div class="watch">
+		<div >
+			<a class="shortcut1" href="#">Home</a>
+			<a class="shortcut1" href="#">Bookes</a>
+			<a class="shortcut1" href="#">Top Bookes</a>
+			<a class="shortcut1" href="#"> Best Sellers</a>
+			<a class="shortcut1" href="#">FAQ</a>
+			<a class="shortcut1" href="#">The Road Not Taken</a></div>
+			<div >
+			<a class="shortcut2" href="#">Twilight</a>
+			<a class="shortcut2" href="#">Harry Potter And The Prison Of Askaban</a>
+			<a class="shortcut2" href="#">The Great GastsBy</a>
+			<a class="shortcut2" href="#">Harry Potter And The Socerers Stone</a>
+			<a class="shortcut2" href="#">Crazy Rich Asians</a>
+			<a class="shortcut2"href="#">Games Of Throwns</a>
+		</div>
+			<div>
+			<a class="shortcut3"href="#">This Time Will Be Diffrent</a>
+			<a class="shortcut3" href="#">The Accidental Prime Mnister</a>
+			<a class="shortcut3" href="#">Falult In Our Stars</a>
+			<a class="shortcut3" href="#">13 reasons Why</a>
+			<a class="shortcut3" href="#">2 states</a>
+			<a class="shortcut3"href="#">The Last Leaf</a>
+		</div>
+			</div>
+		</div>
+	</body>
+</html>

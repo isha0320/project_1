@@ -1,0 +1,285 @@
+<html>
+<head>
+	</head>
+	<style>
+		*
+	{
+		margin: 0px 0px;
+		padding: 0px 0px;
+	}
+	.top_bar
+	{
+		display:inline-flex;
+		background-color:black;
+		color: white;
+		background-size:cover;
+		height:100px;
+	
+	}
+	#icon
+	{
+		margin: 10px 10px;
+		padding: 10px 10px;
+		background-position: bottom left;
+		border-radius:50% 50%;
+	}
+	#heading
+	{
+		color:white;
+		margin:5px 5px;
+		padding:5px 5px;
+		font-size:24px;
+		font-family:Arial-Bold;
+	}
+	.list
+	{
+		display:inline-flex;
+		margin:10px 5px 5px 500px;
+		padding:10px 5px 5px 450px;
+	}
+	.link
+	{
+		text-decoration:none;
+		color:white;
+		font-style:bold;
+		font-family:Arial-Bold;
+		display: inline-block;
+		font-size:16px;
+		text-align: right
+		margin:5px 5px;
+		padding:5px 10px;
+
+	}
+	.dropdown_btn
+	{
+		background-color: black;
+		font-style:bold;
+		font-family:Arial-Bold;
+		font-size:16px;
+		text-align:center;
+		width:100px;
+		padding:5px 10px;
+		color:white;
+		border:none;
+
+	}
+	.dropdown_contant
+	{
+		display:none;
+		width:160px;
+        opacity:0.7; 
+		background-color:black;
+	}
+	.dropdown_contant a
+	{
+		text-decoration:none;
+		color:white;
+		padding:5px 0px;
+		display:block;
+
+	}
+	.dropdown_contant a:hover
+	{
+		background-color:white;
+		color:black;
+		opacity:0.8;
+
+	}
+	.dropdown:hover .dropdown_contant
+	{
+		display:block;
+
+	}
+	.dropdown:hover .dropdown_btn
+	{
+     background-color:white;
+		color:black;
+		opacity:0.8;
+	}
+   .dropdown:active .dropdown_btn
+   {
+   	background:color:white;
+		color:black;
+		background-opacity:0.38;
+   }
+	.link:hover
+	{
+		background-color:white;
+		color:black;
+		opacity:0.8;
+
+	}
+	.link:active
+	{
+		background:color:white;
+		color:black;
+		background-opacity:0.38;
+	}
+	#center_image
+	{
+		background-image:url("https://elearningindustry.com/wp-content/uploads/2016/05/top-10-books-every-college-student-read-e1464023124869.jpeg");
+		background-size:cover;
+		background-attachment:scroll;
+		height:500px;
+		width:100%;
+		padding:0px 0px;
+		margin:0px 0px;
+
+	}
+	#home
+	{
+		font-size:70px;
+		font-family:Arial-Bold;
+		text-align:center;
+		color:white;
+		padding:10px 10px;
+		margin: 10px 10px;
+	}
+	#title
+	{
+		font-size:30px;
+		color:white;
+		text-align:center;
+		font-family:Arial-bold;
+		font-style:bold;
+		padding:20px 20px;
+		margin:20px 20px;
+
+	}
+	.books
+	{
+		background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQgQY7p0mMZAUltf5PrKxeuIZGCR-r64f_zTg&usqp=CAU");
+		background-size:cover;
+	}
+	.book1
+  {
+
+  	font-size:18px;
+	color:black;
+	font-style:bold;
+	text-decoration:none;
+	padding:10px 10px 20px 20px;
+}
+.book1:hover
+{
+	font-size:20px;
+	color:Aqua;
+}
+.books a img
+{
+	padding:10px 20px 10px 20px;
+}
+
+#demo
+	{
+		background-image:url("https://static1.squarespace.com/static/5644cf28e4b0c6c59217a904/56b022c207eaa0088938d878/5c32d02ccd836655934feeca/1567623974498/photo-1525715843408-5c6ec44503b1.jpg?format=1500w");
+		height:500px;
+		width:100%;
+		background-size:cover;
+		background-attachment:fixed;
+		background-repeat:no-repeat;
+		opacity:0.8;
+
+
+	}
+	.novels
+	{
+		font-size:35px;
+		font-family:Arial;
+		color: black;
+		padding:100px 40px 100px;
+    opacity:none;
+	}
+	.text2
+	{
+		color:black;
+		font-size:35px;
+		font-family:Arial;
+		opacity:none;
+
+	}
+	td a img:hover
+	{
+		height:290px;
+		width:230px;
+	}
+
+	</style>
+	<body>
+<div class="top_bar">
+		<img src="https://st3.depositphotos.com/1364916/12798/v/950/depositphotos_127988792-stock-illustration-logo-education-symbol.jpg" height="70px" width="70px" alt="icon" id="icon">
+		<p id="heading">More to learn</p>
+		<ul class="list" type="none">
+			<li><a class="link" href="home.html">Home </a></li>
+			<li><a class="link" href="Books.html">Books </a></li>
+			<li><div class="dropdown"><button class="dropdown_btn">Top Books </button>
+            <div class="dropdown_contant">
+            	<a href="test.html">Twalight</a>
+            	<a href="#">Harry Potter</a>
+            	<a href="#">Games Of Throwns</a>
+            	<a href="#" >Fault In Our Stars</a>
+            	<a href="#">Five Feets Apart</a>
+            </div>
+			</div></li>
+			<li><a class="link" href="FQA.html">FAQ </a></li>
+			<li><a class="link" href="login.html">login </a></li>
+		</ul>
+	</div>
+		<div id="center_image">
+		<p id="home">Books</p>
+		<br><br><br><br>
+		<p id="title">Learn More Grow More !</p>
+	</div>
+	<div class="books">
+	<table cellpadding="15px" cellspacing="10px">
+		<tr>
+			<td>
+<a href="#"><img src="#" height="250px" width="200px" alt="books"></a><br><a href="#" class="book1">Games Of Throwns</a>
+</td>
+<td><a href="#"><img src="#" height="250px" width="200px" alt="books"></a><br><a href="#" class="book1">Games Of Throwns</a></td>
+<td><a href="#"><img src="#" height="250px" width="200px" alt="books"></a><br><a href="#" class="book1">Games Of Throwns</a></td>
+<td><a href="#"><img src="#" height="250px" width="200px" alt="books"></a><br><a href="#" class="book1">Games Of Throwns</a></td>
+<td><a href="#"><img src="#" height="250px" width="200px" alt="books"></a><br><a href="#" class="book1">Games Of Throwns</a></td>
+<td><a href="#"><img src="#" height="250px" width="200px" alt="books"></a><br><a href="#" class="book1">Games Of Throwns</a></td>
+</tr>
+<tr>
+	<td><a href="#"><img src="#" height="250px" width="200px" alt="books"></a><br><a href="#" class="book1">Games Of Throwns</a></td>
+	<td><a href="#"><img src="#" height="250px" width="200px" alt="books"></a><br><a href="#" class="book1">Games Of Throwns</a></td>
+	<td><a href="#"><img src="#" height="250px" width="200px" alt="books"></a><br><a href="#" class="book1">Games Of Throwns</a></td>
+	<td><a href="#"><img src="#" height="250px" width="200px" alt="books"></a><br><a href="#" class="book1">Games Of Throwns</a></td>
+	<td><a href="#"><img src="#" height="250px" width="200px" alt="books"></a><br><a href="#" class="book1">Games Of Throwns</a></td>
+	<td><a href="#"><img src="#" height="250px" width="200px" alt="books"></a><br><a href="#" class="book1">Games Of Throwns</a></td>
+</tr>
+</table>
+</div>
+<div id="demo"><h1 class="novels"><center>World Full Of New Experiences !</center></h1><br><br><h2 class="text2"><center> New Adventures And Stories Are Waiting For You !</center></h2></div>
+	<div class="books">
+<table cellspacing="10px" cellpadding="15px">
+<tr>
+	<td><a href="#"><img src="#" height="250px" width="200px" alt="books"></a><br><a href="#" class="book1">Games Of Throwns</a></td>
+	<td><a href="#"><img src="#" height="250px" width="200px" alt="books"></a><br><a href="#" class="book1">Games Of Throwns</a></td>
+	<td><a href="#"><img src="#" height="250px" width="200px" alt="books"></a><br><a href="#" class="book1">Games Of Throwns</a></td>
+	<td><a href="#"><img src="#" height="250px" width="200px" alt="books"></a><br><a href="#" class="book1">Games Of Throwns</a></td>
+	<td><a href="#"><img src="#" height="250px" width="200px" alt="books"></a><br><a href="#" class="book1">Games Of Throwns</a></td>
+	<td><a href="#"><img src="#" height="250px" width="200px" alt="books"></a><br><a href="#" class="book1">Games Of Throwns</a></td>
+</tr>
+<tr>
+	<td><a href="#"><img src="#" height="250px" width="200px" alt="books"></a><br><a href="#" class="book1">Games Of Throwns</a></td>
+	<td><a href="#"><img src="#" height="250px" width="200px" alt="books"></a><br><a href="#" class="book1">Games Of Throwns</a></td>
+	<td><a href="#"><img src="#" height="250px" width="200px" alt="books"></a><br><a href="#" class="book1">Games Of Throwns</a></td>
+	<td><a href="#"><img src="#" height="250px" width="200px" alt="books"></a><br><a href="#" class="book1">Games Of Throwns</a></td>
+	<td><a href="#"><img src="#" height="250px" width="200px" alt="books"></a><br><a href="#" class="book1">Games Of Throwns</a></td>
+	<td><a href="#"><img src="#" height="250px" width="200px" alt="books"></a><br><a href="#" class="book1">Games Of Throwns</a></td>
+</tr>
+<tr>
+	<td><a href="#"><img src="#" height="250px" width="200px" alt="books"></a><br><a href="#" class="book1">Games Of Throwns</a></td>
+	<td><a href="#"><img src="#" height="250px" width="200px" alt="books"></a><br><a href="#" class="book1">Games Of Throwns</a></td>
+	<td><a href="#"><img src="#" height="250px" width="200px" alt="books"></a><br><a href="#" class="book1">Games Of Throwns</a></td>
+	<td><a href="#"><img src="#" height="250px" width="200px" alt="books"></a><br><a href="#" class="book1">Games Of Throwns</a></td>
+	<td><a href="#"><img src="#" height="250px" width="200px" alt="books"></a><br><a href="#" class="book1">Games Of Throwns</a></td>
+	<td><a href="#"><img src="#" height="250px" width="200px" alt="books"></a><br><a href="#" class="book1">Games Of Throwns</a></td>
+</tr>
+</table>
+	</div>
+	</body>
+	</html>
